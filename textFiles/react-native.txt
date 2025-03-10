@@ -1,0 +1,16 @@
+------------------ BASIC REACT NATIVE -----------------
+
+ENVIRONMENT SETUP:
+
+1. Its an cross platform devlopementt tehnology , it build on react js lib
+
+2. react provide expo and react native cli for debuggin the application ,  for elulatoruse 
+use react native cli ,for mobile use use expo
+
+3. npx create-expo-app projectName
+
+4. npx run expo to run the react native
+
+5. install expo in smartphone to run the react native app.
+
+6. react native core architecture --> need to be learn.
