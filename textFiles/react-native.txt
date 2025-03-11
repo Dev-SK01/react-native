@@ -9,8 +9,31 @@ use react native cli ,for mobile use use expo
 
 3. npx create-expo-app projectName
 
-4. npx run expo to run the react native
+4. npx expo start to run the react native
 
 5. install expo in smartphone to run the react native app.
 
 6. react native core architecture --> need to be learn.
+
+----------------- NATIVE COMPONENTS -------------------
+
+1. Native components are the components that work same in every playform
+
+2. Every native components has their own work on the screen
+
+3. text , view  ,statusbar , Button , every components has it style props.
+
+4. TextInput
+
+------------------ FLEX BOX LAYOUT --------------------
+
+1. In React NAtive place the componenet using flex box layout
+
+2. we can use css flex properties to place the components. flex:1 alignItems ,justifyContent
+
+
+------------------ COMPONENTS & PROPS ----------------
+
+1. We can use noram react fucnitonal compoents in react native and props also.
+
+2. we can use state and input in react native
