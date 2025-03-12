@@ -27,7 +27,7 @@ use react native cli ,for mobile use use expo
 
 ------------------ FLEX BOX LAYOUT --------------------
 
-1. In React NAtive place the componenet using flex box layout
+1. In React Native place the componenet using flex box layout
 
 2. we can use css flex properties to place the components. flex:1 alignItems ,justifyContent
 
@@ -37,3 +37,21 @@ use react native cli ,for mobile use use expo
 1. We can use noram react fucnitonal compoents in react native and props also.
 
 2. we can use state and input in react native
+
+-------------------- SCROLL VIEW ----------------------
+
+1. scroll view naive component are used to create an scrollable view in react native
+
+2. scroll view renders the all the UI component , but its not visible on the screen until we scroll
+
+3. It will affect he perfomance
+
+------------------- FLAT LIST ------------------------
+
+1. flat list is scroll view like native component but it renders only screen justifyContent
+
+2. flat list is an self closing component data , renderItem props
+
+3. data --> actual data that we render , its like object with key
+
+4. renderItem --> expects a callback function that we render the data , it has item prop
