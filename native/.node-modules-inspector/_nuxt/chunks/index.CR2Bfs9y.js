@@ -1,0 +1,1 @@
+import{e as o,U as r,Q as a,c as n,o as s}from"../entry.BBXTE6X0.js";const l=o({__name:"index",setup(c){const e=r(),t=a();return e.replace({path:"/grid",hash:location.hash,query:t.query}),(u,i)=>(s(),n("div",null," Redirecting... "))}});export{l as default};

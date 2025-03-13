@@ -1,0 +1,14 @@
+ ------------------- REACT NATIVE NAVIGATION ----------------
+SETUP
+1. npm install @react-navigation/native
+2. npm install @react-navigation/native-stack
+3. npx expo install react-native-screens react-native-safe-area-context [for expo project]
+
+------------------- Initilization Navigator Screen ----------------
+
+4.call createNativeStackNavigator() it return the object it maintain the routes in stack.
+5.navigationContainer it ans stack constainer in the react native wrapped in app component
+6.Stack.Navigator initialPath=name is the navigator component for your routes
+7.Stack.screen name='name' component={Component} --> it an react native view for navigator
+
+-------------------- Navigating screens -------------------

@@ -55,3 +55,16 @@ use react native cli ,for mobile use use expo
 3. data --> actual data that we render , its like object with key
 
 4. renderItem --> expects a callback function that we render the data , it has item prop
+
+------------------ FIREBASE -----------------
+
+1.In firebase we can use web sdk for react native , for authentication data storage we use 
+asyncStorage package to store the data  ,in firabse 
+
+auth = initializeAuth(app, {
+        persistence: getReactNativePersistence(AsyncStorage)
+    });
+ we can use this like that format firebase will handle login storage
+
+ 
+
