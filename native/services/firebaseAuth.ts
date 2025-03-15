@@ -21,7 +21,7 @@ if (getApps().length == 0) {
         persistence: getReactNativePersistence(AsyncStorage)
     });
 }else{
-  auth = getAuth()
+  auth = getAuth();
 }
 
 export default auth;

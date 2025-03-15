@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import {useEffect, useState } from 'react'
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native'
-import { signInWithEmailAndPassword ,onAuthStateChanged } from 'firebase/auth'
+import { signInWithEmailAndPassword ,onAuthStateChanged} from 'firebase/auth'
 import auth from '../services/firebaseAuth';
 import { useNavigation } from '@react-navigation/native';
 
@@ -30,10 +30,13 @@ const Login = () => {
  }
 
  useEffect(()=>{
-   onAuthStateChanged(auth,(user)=>{
-    if(user) navigation.navigate('dashboard')
+   onAuthStateChanged(auth , (user)=>{
+    if(user){
+      navigation.navigate('dashboard')
+    }
    })
- },[])
+ },[]);
+
   return (
     <View style={styles.container}>
       <Text style={styles.register}>LOGIN</Text>
