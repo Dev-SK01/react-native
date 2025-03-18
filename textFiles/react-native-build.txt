@@ -1,0 +1,11 @@
+----------- REACT NATIVE EXPOT BUILD -----------
+
+1. for native build we need android studio or xcode for build
+
+2. using expo use eas cli for BUILD
+
+3. npm i -g eas-cli
+
+4. eas login
+
+5. eas build
